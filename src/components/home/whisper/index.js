@@ -49,8 +49,10 @@ export function Whisper() {
       <Wrapper className="container reveal">
         <Title>Chú rể & Cô dâu</Title>
         <SubTitle id="demo">
-          {/* Tình cảm ấy, chẳng cần cứ phải hét to lên cho cả thế giới biết, chỉ cần thủ thỉ cho một người là cả thế giới của mình... */}
           Hạnh phúc trong tình yêu không phải điều gì to lớn, đôi khi hạnh phúc đơn giản chỉ là cùng nhau làm những điều nhỏ nhặt mỗi ngày.
+        </SubTitle>
+        <SubTitle id="demo">
+          Gặp gỡ là chữ duyên, cùng nhau đi qua cuộc đời là định mệnh sắp đặt. Đó là món quà ý nghĩa mà cuộc sống dành tặng cho mỗi con người.
         </SubTitle>
         <Feeling className="feeling">
           <Wife>
@@ -60,8 +62,8 @@ export function Whisper() {
             <FeelingText>
               <Name>Nguyễn Thị Xuân Nga</Name>
               <Text>
-                "Cô dâu Xuân Nga - 1997, Tuổi con mèo cầm tinh con sư tử, yêu màu hồng ghét sự giả dối 😄.
-Với mình "Hạnh phúc không phải làm ra cho ai xem. Hạnh phúc đơn giản chỉ là nắm tay người bạn đời của mình kiên quyết đi trên con đường mình đã chọn❤️"
+                Cô dâu Xuân Nga - Một cô gái Song ngư với nhiều mộng mơ. Là cô gái hay cười nhưng lại thích sống nội tâm. Với em: "Một cuộc sống hôn nhân hạnh phúc là cả một cuộc hành trình
+                , cả hai phải cùng nhau cố gắng, cùng nhau trưởng thành và học hỏi."
               </Text>
             </FeelingText>
           </Wife>
@@ -75,9 +77,8 @@ Với mình "Hạnh phúc không phải làm ra cho ai xem. Hạnh phúc đơ
             <FeelingText>
               <Name>Hoàng Minh Giám</Name>
               <Text>
-                "Chú rể Minh Giám - 1997, vừa kute, hiền lành lại chăm làm việc nhà, đặc biệt là thích rửa bát cho vợ.
-Công việc chuyên môn: Đi khách và làm tiền.
-Mong ước nhỏ nhoi của mình là có tầm chục tỷ gửi tiết kiệm, sống một cuộc sống bình lặng, hông bon chen với đời ^^"
+                Chú rể Minh Giám - Một chàng trai Bảo Bình luôn cởi mở lạc quan. Là một chàng trai hiền lành, luôn có các mối quan hệ tốt đẹp với mọi người xung quanh.
+                Với anh: "Gia đình là điểm tựa vững chắc nhất và là bến đỗ không đâu sánh bằng đối với mỗi người. Đó luôn là nơi tràn ngập tình yêu thương để ta trở về."
               </Text>
             </FeelingText>
           </Husband>

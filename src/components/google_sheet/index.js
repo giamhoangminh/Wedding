@@ -13,7 +13,7 @@ function GoogleSheet() {
   return (
     <IframeWrapper>
       <iframe
-        src="https://docs.google.com/spreadsheets/d/1qy-XZF_6w29xAWhlwxA9wr-0qowq3KeQOS6gEUdeCaI/edit#gid=0"
+        src="https://docs.google.com/spreadsheets/d/18c1DTnNtXGJRuxHHKky6XVkxEGDVQc386z40ZQkPxJI/edit?usp=sharing"
         title="google sheet"
       ></iframe>
     </IframeWrapper>

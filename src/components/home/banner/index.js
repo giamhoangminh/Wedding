@@ -19,7 +19,7 @@ export function Banner() {
   const [timeRun, setTimeRun] = React.useState(0)
   const [timeDefault, setTimeDefault] = React.useState(0)
   const myaudio = document.getElementById("audioID"); 
-
+ 
   const onShowAudio = () => {
     setIsShowAudio(true)
     setIsRoleAudio(true)
@@ -45,7 +45,7 @@ export function Banner() {
         setWidthbar(progressPercent.toFixed(2))
       }
    }
-  }, [myaudio])
+  }, [myaudio]);
 
   return (
     <SectionWrapper>
@@ -66,7 +66,7 @@ export function Banner() {
             <div className="content">
               <div className="content__date">07/01/2024</div>
               <div className="content__name">Minh Giám & Xuân Nga</div>
-              <div className="content__line" timeRun={(timeRun/60).toFixed(2)} timeEnd={(timeDefault/60).toFixed(2)}>
+              <div className="content__line" timeRun={((Math.floor(timeRun/60)) + (Math.floor(timeRun)%60)/100).toFixed(2)} timeEnd={((Math.floor(timeDefault/60)) + (Math.floor(timeDefault)%60)/100).toFixed(2)}>
                 <div className="line-active" style={{ width: `${widthBar}%`}} >
                 </div>
               </div>
