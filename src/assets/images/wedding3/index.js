@@ -15,10 +15,10 @@ export const Images3 = [
     src: Im3,
     alt: "img3",
   },
-  // {
-  //   src: Im22,
-  //   alt: "img22",
-  // },
+  {
+    src: Im22,
+    alt: "img22",
+  },
   {
     src: Im23,
     alt: "img23",
@@ -27,10 +27,10 @@ export const Images3 = [
     src: Im1,
     alt: "img1",
   },
-  // {
-  //   src: Im15,
-  //   alt: "img15",
-  // },
+  {
+    src: Im15,
+    alt: "img15",
+  },
   // {
   //   src: Im31,
   //   alt: "img31",

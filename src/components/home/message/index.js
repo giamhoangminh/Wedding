@@ -41,7 +41,7 @@ export function Message() {
         setName('');
         setText('');
         getMessage();
-        // setList([data,...list])
+        setList([data,...list])
       }
     })
   }
